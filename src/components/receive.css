@@ -1,0 +1,26 @@
+.k2{
+    background-image: linear-gradient(#a1c4fd,rgb(107, 161, 137));
+}
+
+.k4{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+
+@media(min-width:0px) and (max-width:480px){
+    .xz{
+        margin-bottom: 51%;
+    }
+  }
+  
+  @media(min-width:481px) and (max-width:768px){
+    .xz{
+        margin-bottom: 26%;
+    }
+  }
+  @media(min-width:769px) and (max-width:2000px){
+    .xz{
+        margin-bottom: 6.5%;
+    }
+  }

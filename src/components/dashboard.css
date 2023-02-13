@@ -1,0 +1,39 @@
+.parent{
+    display: flex;
+    text-align: center;
+}
+
+.c1{
+    box-shadow: 12px 12px 12px;
+}
+
+.c3{
+    background-color: blue;
+    padding: 5%;
+}
+
+.v1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.v2{
+    background-image: linear-gradient(#a1c4fd,rgb(107, 161, 137));
+    box-shadow: 12px 12px 12px;
+}
+@media(min-width:0px) and (max-width:480px){
+    .v2{
+        margin-bottom: 55%;
+    }
+  }
+  
+  @media(min-width:481px) and (max-width:768px){
+    .v2{
+        margin-bottom: 31%;
+    }
+  }
+  @media(min-width:769px) and (max-width:2000px){
+    .v2{
+        margin-bottom: 7.5%;
+    }
+  }

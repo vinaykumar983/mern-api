@@ -1,0 +1,18 @@
+.a1{
+    background-image: linear-gradient(#a1c4fd,rgb(107, 161, 137));
+    box-shadow: 12px 12px 12px;
+}
+
+.b1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.z{
+    background-image: "https://st3.depositphotos.com/13324256/i/600/depositphotos_364030124-stock-photo-top-view-pasta-beans-groats.jpg";
+}
