@@ -48,7 +48,11 @@ app.use((error,request,response,next)=>{
     response.send({message:error.message})
 })
 
+const PORT=process.env.PORT || 4000;
 
-app.listen(process.env.PORT,()=>{
+
+
+
+app.listen(PORT,()=>{
     console.log("server listening on port number 4000")
 })
